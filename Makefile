@@ -24,6 +24,6 @@ test: piaui-repl
 	bundle exec rspec
 
 clean:
-	rm -f piaui
+	rm -f piaui test.db
 	rm -rf $(OUT_FOLDER)
 	rm -rf .bundle Gemfile.lock
